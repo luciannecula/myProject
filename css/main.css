@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+#king {
+  width: 100%;
+  height: 750px;
+  background-color: black;
+  background-image: url("../Photo/wine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold; }
+
+a:hover {
+  color: black; }
+
+header {
+  background: black;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  border-bottom: 2px red solid;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+nav {
+  float: right;
+  padding: 20px; }
+
+#menu-icon {
+  width: 40px;
+  height: 40px;
+  background: black url("../img/menu-icon.png"); }
+
+a:hover#menu-icon {
+  background-color: red;
+  border-radius: 4px 4px 0 0; }
+
+ul {
+  list-style: none; }
+
+li {
+  display: inline-block;
+  float: left;
+  padding: 10px; }
+
+@media only screen and (max-width: 640px) {
+  #menu-icon {
+    display: block; }
+  nav ul, nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    background: black;
+    border: 5px solid #444;
+    right: 20px;
+    top: 60px;
+    width: 50%;
+    border-radius: 4px 0 4px 4px; }
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0; }
+  nav:hover ul {
+    display: block; } }
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.silver {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.silver:hover {
+  background-color: red;
+  color: white; }
+
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: black; }
+
+.gold {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.gold:hover {
+  background-color: red;
+  color: white; }
+
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: black; }
+
+.premium {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+
+.premium:hover {
+  background-color: red;
+  color: white; }
+
+.content {
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+  background-color: black; }
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: black; }
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 50%; }
+
+.contact {
+  text-align: right;
+  padding-top: 25px;
+  color: white; }
+
+.fa:hover {
+  opacity: 0.7; }
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white; }
+
+.copy {
+  color: white; }
+
+.sigla {
+  color: white;
+  font-size: 29px; }
+
+.despre {
+  width: 100%;
+  height: 100%;
+  border: black 2px solid;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 25px;
+  border-radius: 5%; }
+
+.despre h1 {
+  text-align: center; }
+
+.servicii {
+  background-color: white;
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+  display: inline-block; }
+
+.servicii article {
+  width: 400px;
+  height: 400px;
+  border: black 2px solid;
+  justify-content: center;
+  border-radius: 5%;
+  display: inline-flex;
+  align-content: center; }
+
+.servicii article:nth-of-type(1) {
+  background-image: url("../Photo/porumbei1.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(2) {
+  background-image: url("../Photo/fum-greu.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(3) {
+  background-image: url("../Photo/elegant.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(4) {
+  background-image: url("../Photo/masina-bule.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(5) {
+  background-image: url("../Photo/covor.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(6) {
+  background-image: url("../Photo/stalpisori.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(7) {
+  background-image: url("../Photo/stalpi luminosi.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(8) {
+  background-image: url("../Photo/elegant.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(9) {
+  background-image: url("../Photo/arcada.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(10) {
+  background-image: url("../Photo/marturii.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(11) {
+  background-image: url("../Photo/elegant.jpg");
+  background-size: cover; }
+
+.servicii article:nth-of-type(12) {
+  background-image: url("../Photo/elegant.jpg");
+  background-size: cover; }
+
+.contact {
+  background-color: black;
+  color: white;
+  font-size: large;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  text-align: left; }
+
+/*# sourceMappingURL=maps/main.css.map */

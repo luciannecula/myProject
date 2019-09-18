@@ -39,10 +39,10 @@ nav {
 #menu-icon {
   width: 40px;
   height: 40px;
-  background: black url("../img/menu-icon.png"); }
+  background: black url("../Photo/menu-icon.png"); }
 
 a:hover#menu-icon {
-  background-color: red;
+  background-color: transparent;
   border-radius: 4px 4px 0 0; }
 
 ul {
@@ -83,6 +83,7 @@ section {
   background-color: black;
   color: white;
   cursor: pointer;
+  border: 3px solid transparent;
   padding: 10px;
   width: 100%;
   text-align: left;
@@ -90,8 +91,8 @@ section {
   font-size: 15px; }
 
 .silver:hover {
-  background-color: red;
-  color: white; }
+  background-color: transparent;
+  color: red; }
 
 .content {
   padding: 0 10px;
@@ -103,6 +104,7 @@ section {
   background-color: black;
   color: white;
   cursor: pointer;
+  border: 3px solid transparent;
   padding: 10px;
   width: 100%;
   text-align: left;
@@ -110,8 +112,8 @@ section {
   font-size: 15px; }
 
 .gold:hover {
-  background-color: red;
-  color: white; }
+  background-color: transparent;
+  color: red; }
 
 .content {
   padding: 0 10px;
@@ -123,6 +125,7 @@ section {
   background-color: black;
   color: white;
   cursor: pointer;
+  border: 3px solid transparent;
   padding: 10px;
   width: 100%;
   text-align: left;
@@ -130,8 +133,8 @@ section {
   font-size: 15px; }
 
 .premium:hover {
-  background-color: red;
-  color: white; }
+  background-color: transparent;
+  color: red; }
 
 .content {
   padding: 0 10px;
